@@ -71,8 +71,7 @@ def main():
 
     new_data['Total'] = f'{totalCorrect}/{total}'
     #print(f'Total: {totalCorrect}/{total}')
-    #print(new_data)
-
+    print(json.dumps(new_data, indent=4))
     with open(file_path, 'w') as f:
         json.dump(new_data, f, indent=4)
 
