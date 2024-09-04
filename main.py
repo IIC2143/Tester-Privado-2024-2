@@ -61,7 +61,7 @@ def main():
         #print(f'{key}:')
         count = 0
         for k in data[key]:
-            if data[key][k][0] == True:
+            if isinstance(data[key][k], tuple) and isinstance(data[key][k][0], bool) and data[key][k][0] == True:
                 count += 1
  
         #print(f'{count}/{len(data[key])}')
