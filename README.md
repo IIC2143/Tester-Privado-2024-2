@@ -1,4 +1,4 @@
-# 2024-1-Tester-Tarea
+# 2024-2-Tester-Tarea
 
 En este repositorio se encuentran distintos tests para la tarea del curso.
 
@@ -10,7 +10,7 @@ Para correrlo los pasos son los siguientes:
 
 * Luego se debe correr los scripts especificos de cada archivo de test publico.
 
->python test_1A.py
+>python main.py
 
 Este retornara los test que se logran pasar y los que no. Luego, para debuggear pueden ir a ver los listados de los test y ver cuales fueron las request erroneas. 
 
